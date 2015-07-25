@@ -1,0 +1,4 @@
+E:\My Programs\Xamarin\ArcMenu\ArcMenu\bin\Debug\ArcMenu.dll
+E:\My Programs\Xamarin\ArcMenu\ArcMenu\bin\Debug\ArcMenu.pdb
+E:\My Programs\Xamarin\ArcMenu\ArcMenu\obj\Debug\ArcMenu.dll
+E:\My Programs\Xamarin\ArcMenu\ArcMenu\obj\Debug\ArcMenu.pdb

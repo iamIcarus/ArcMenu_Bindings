@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.capricorn">
+<class abstract="false" deprecated="not deprecated" extends="android.view.ViewGroup" extends-generic-aware="android.view.ViewGroup" final="false" name="ArcLayout" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ArcLayout" static="false" type="com.capricorn.ArcLayout" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ArcLayout" static="false" type="com.capricorn.ArcLayout" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChildSize" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isExpanded" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onLayout" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setArc" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setChildSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setMinRadius" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="switchState" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="DEFAULT_FROM_DEGREES" static="true" transient="false" type="float" type-generic-aware="float" value="270.000000" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEFAULT_TO_DEGREES" static="true" transient="false" type="float" type-generic-aware="float" value="360.000000" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ArcLayout.1" static="false" visibility="">
+<implements name="android.view.animation.Animation.AnimationListener" name-generic-aware="android.view.animation.Animation.AnimationListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ArcLayout.1.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.RelativeLayout" extends-generic-aware="android.widget.RelativeLayout" final="false" name="ArcMenu" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="ArcMenu" static="false" type="com.capricorn.ArcMenu" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="ArcMenu" static="false" type="com.capricorn.ArcMenu" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.View.OnClickListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setAtributes" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setButtonImage" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setButtonIndicatorImage" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="false" name="isAnimating" static="false" transient="false" type="java.lang.Boolean" type-generic-aware="java.lang.Boolean" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ArcMenu.1" static="false" visibility="">
+<implements name="android.view.View.OnTouchListener" name-generic-aware="android.view.View.OnTouchListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.MotionEvent">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ArcMenu.2" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ArcMenu.2.1" static="false" visibility="">
+<implements name="android.view.animation.Animation.AnimationListener" name-generic-aware="android.view.animation.Animation.AnimationListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="ArcMenu.2.1.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.ViewGroup" extends-generic-aware="android.view.ViewGroup" final="false" name="RayLayout" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="RayLayout" static="false" type="com.capricorn.RayLayout" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="RayLayout" static="false" type="com.capricorn.RayLayout" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="isExpanded" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onLayout" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="boolean">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setChildSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="switchState" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="boolean">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RayLayout.1" static="false" visibility="">
+<implements name="android.view.animation.Animation.AnimationListener" name-generic-aware="android.view.animation.Animation.AnimationListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RayLayout.1.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.RelativeLayout" extends-generic-aware="android.widget.RelativeLayout" final="false" name="RayMenu" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="RayMenu" static="false" type="com.capricorn.RayMenu" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="RayMenu" static="false" type="com.capricorn.RayMenu" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="addItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.View.OnClickListener">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RayMenu.1" static="false" visibility="">
+<implements name="android.view.View.OnTouchListener" name-generic-aware="android.view.View.OnTouchListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTouch" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+<parameter name="p1" type="android.view.MotionEvent">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RayMenu.2" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RayMenu.2.1" static="false" visibility="">
+<implements name="android.view.animation.Animation.AnimationListener" name-generic-aware="android.view.animation.Animation.AnimationListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationRepeat" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAnimationStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.animation.Animation">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RayMenu.2.1.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.animation.Animation" extends-generic-aware="android.view.animation.Animation" final="false" name="RotateAndTranslateAnimation" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="RotateAndTranslateAnimation" static="false" type="com.capricorn.RotateAndTranslateAnimation" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<parameter name="p3" type="float">
+</parameter>
+<parameter name="p4" type="float">
+</parameter>
+<parameter name="p5" type="float">
+</parameter>
+</constructor>
+</class>
+</package>
+</api>
